@@ -1,0 +1,49 @@
+/* removing the default browser-enforced styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Font and Font Colouring */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* applying styles to the <header */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* styles the header's <h1> tag */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* styles the header's <a> tag */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* styles the header's <nav> tag */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* styles the <li> elements of the <nav> tag */
+header nav ul li {
+    display: inline;
+}
+
+/* styles the <a> tags under the <li> tag */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
