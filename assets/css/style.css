@@ -250,3 +250,41 @@ section div h3 {
     text-align: right;
 }
 /* trainers style end */
+
+/* contact styling */
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+/* what i had done 
+.contact-info div {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5;
+    color: #ffffff;
+    padding: 60px;
+}
+*/
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: #ffffff;
+}
+
+.contact-info div h3,
+.contact-info div a {
+    color: #fce138;
+}
