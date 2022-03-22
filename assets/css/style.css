@@ -39,15 +39,19 @@ header nav {
 }
 
 /* styles the <li> elements of the <nav> tag */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* styles the <a> tags under the <li> tag */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* styles the <footer> element */
