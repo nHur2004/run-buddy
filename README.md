@@ -12,3 +12,5 @@ https://nhur2004.github.io/run-buddy/
 
 ## Contribution
 Made with love by nHur2004
+
+### ©️2019 Run Buddy, Inc.
